@@ -1,11 +1,10 @@
 class Paperboy:
-    name = ''
-    experience = 0
-    earnings = 0
-    delivery_quota = 50
 
     def __init__(self, new_name):
         self.name = new_name
+        self.experience = 0
+        self.earnings = 0
+        self.delivery_quota = 50
     
     def __str__(self):
         return f"Name: {self.name}, experience: {self.experience}, earning: {self.earnings}. quota: {self.delivery_quota}"
